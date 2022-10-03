@@ -1,0 +1,149 @@
+body {
+  text-align: center;
+  margin: 0;
+  /* overflow-x: hidden; */
+  /* background-color: #bec1f3; */
+  color: RGB(179, 94, 190);
+}
+hr {
+  border-top: 7px dotted RGB(179, 184, 250);
+  max-width: 8%;
+  margin: 75px auto 75px auto;
+  border-bottom: none;
+}
+h1 {
+  font-family: "Kalam", cursive;
+  font-size: 3.125rem;
+  color: RGB(179, 64, 170);
+}
+h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.875rem;
+  color: RGB(179, 64, 170);
+  padding-bottom: 10px;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  /* font-size: 1.875rem; */
+  color: RGB(179, 64, 170);
+}
+h4 {
+  font-size: 1.45rem;
+  color: RGB(179, 64, 170);
+}
+p {
+  font-family: "Montserrat", sans-serif;
+  /* color: RGB(179, 64, 170); */
+}
+a {
+  color: RGB(179, 64, 170);
+  text-decoration: none;
+}
+a:hover {
+  background-color: RGB(179, 94, 190);
+}
+.img {
+  border-radius: 50%;
+}
+.div1 {
+  background-color: #b3b8fa;
+  padding-top: 85px;
+  /* .div1 {
+    border: solid 10px;
+    padding: 20px;
+    background-color: #afb4ff;
+} */
+  /* position: absolute;
+  height: 200px;
+  width: 200px;
+  margin: 0px; */
+}
+.middle-container {
+  padding: 80px 0;
+  background-color: white;
+}
+.bottom-container {
+  background-color: #b3b8fa;
+  height: 6rem;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 25px;
+}
+/* .square {
+  height: 200px;
+  width: 200px;
+} */
+/* .red {
+  background-color: red;
+  /* .red {
+    background-color: red;
+    border: solid 20px;
+    left: 260px;
+    position: relative;
+} */
+/* position: absolute;
+  left: 208px;
+  top: 208px; */
+/* } */
+/* .blue {
+  background-color: blue;
+  /* .blue {
+    background-color: yellow;
+    border: solid 10px;
+    left: 500px;
+    position: relative;
+} */
+/* position: absolute;
+  left: 408px;
+  top: 408px; */
+/* }  */
+.top-cloud {
+  position: absolute;
+  top: 35px;
+  right: 300px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+}
+.pc-image {
+  width: 25%;
+  float: left;
+}
+.skate-guy {
+  width: 25%;
+  float: right;
+}
+
+.skill-row {
+  position: relative;
+  margin: 75px auto 100px auto;
+  width: 50%;
+  text-align: left;
+}
+.btn {
+  background-color: RGB(179, 64, 170);
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 30px;
+  border-radius: 8px;
+}
+.btn:hover {
+  background-color: RGB(179, 94, 190);
+}
+.skate-padding {
+  padding-top: 30px;
+}
+.footer-link {
+  margin: 25px;
+  position: relative;
+  top: 25px;
+}
+.copyright {
+  padding-top: 3rem;
+  font-size: 1rem;
+}
